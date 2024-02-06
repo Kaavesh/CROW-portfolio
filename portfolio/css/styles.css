@@ -1,0 +1,16 @@
+*{
+    font-family:'Poppins', sans-serif;
+}
+
+.banner{
+    background-image: url(/portfolio/img/new.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding:250px;
+} 
+h2{
+    color: rgb(241, 240, 153);
+}
+h5{
+    color:rgb(225, 236, 124);
+}

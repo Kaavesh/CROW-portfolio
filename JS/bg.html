@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
+    <title>color</title>
+    <style>
+        #main-BG{
+            width:350px;
+            height:400px;
+            border: 2px solid gainsboro;
+        }
+    </style>
+</head>
+<body>
+    <div  id="main-BG"   ></div>
+    <button onclick="changecolor('blue')">blue</button>
+    <button onclick="changecolor('purple')">purple</button> 
+    <button onclick="changecolor('yellow')">yellow</button>
+</body>
+<script>
+
+function changecolor(val){
+    document.getElementById('main-BG').style.background = val; 
+
+}
+
+</script>
+</html>

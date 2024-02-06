@@ -1,0 +1,123 @@
+body,h1,h3,p{
+    margin:0 ;
+  
+    
+}
+.main-div{
+    background-color: rgb(153, 194, 221) ;
+    display:flex ;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+#logo{
+    color: rgb(25, 27, 29);
+    font-size:36px ;
+    font-style: Heebo;
+    padding: 3px 0px;
+    
+}
+.signin-form{
+    background-color: rgb(25, 27, 29);
+    width:450;
+    border-radius:5px ;
+}
+.form-heading{
+    text-align:center;
+    padding:10px ;
+    border-bottom:1px solid rgb(66, 58, 46) ;
+
+}
+
+h3{
+    padding-bottom:6px ;
+}
+.input-fields{
+    padding:15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+    
+input ,select{
+    padding:6px;
+    border-color:5px lightskyblue ;
+    border-radius:4px ;
+    width:125% ;
+    font-size: 14px;
+}
+
+.half-width{
+    width:50%;
+    display: flex;
+}
+
+.full-width{
+    width: 100%;
+    display: flex;
+}
+label{
+    color:rgb(25, 27, 29);
+    padding-bottom: 3px;
+    padding-top: 5px;
+}
+.dob-div{
+    display:flex;
+    width:100%;
+    justify-content:space-between ;
+}
+.quat-width{
+    width:30%;
+    display:flex ;
+    
+}
+
+.radio-btn{
+    border-color:5px lightskyblue ;
+    border-radius:4px ;
+    padding:6px;
+    width:125% ;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.radio-lable{
+    padding: 0;
+    font-size:15px ;
+}
+.radio-input{
+    margin: 0;
+    width: inherit;
+
+}
+small{
+    color:rgb(25, 27, 29) ; 
+    font-size: 11px;
+    font-weight: 500;
+
+}
+#e{
+    color:rgb(25, 27, 29) ; 
+    font-size: 11px;
+}
+.button, Account-div{
+      padding:15px 0px ;
+    display: flex;
+    justify-content: center;
+    width:100% ;
+    }
+.signin-btu{
+    border:2px ;
+    background-color:rgb(89, 174, 196) ;
+    padding: 8px 56px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+.Account-div{
+    justify-content: space-between;
+    text-align:left;
+}
